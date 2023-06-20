@@ -35,6 +35,7 @@ def translate_tag(combined_df, tag_df):
 
 # global
 app = Dash(__name__)
+server = app.server
 dataframes = {}
 dfs = []  # List to hold all dataframes
 tag_df = None
